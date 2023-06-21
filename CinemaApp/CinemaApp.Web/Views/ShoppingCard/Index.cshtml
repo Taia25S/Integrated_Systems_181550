@@ -1,0 +1,80 @@
+﻿@using Microsoft.Extensions.Options
+@inject IOptions<CinemaApp.Domain.StripeSettings> Stripe
+@model CinemaApp.Domain.DTO.ShoppingCartDTO
+
+<h1>Shopping Card</h1>
+
+@if (Model.TicketsInShoppingCart.Count == 0) 
+{ 
+    <h5>No tickets in the shopping card.</h5>
+}
+            else { 
+<div class="row">
+    <div class="form-group">
+        @*<a href="/ShoppingCard/OrderNow" class="btn btn-warning">Order now</a>*@
+
+        <form asp-controller="ShoppingCard" asp-action="PayOrder" method="post">
+            <article>
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" 
+                        data-key="@Stripe.Value.PublishableKey" data-locale="auto"
+                        data-desription="Cinema Application Payment" data-amount="@(Model.TotalPrice*100)"
+                        data-label="Pay @Model.TotalPrice denars">
+
+                </script>
+            </article>
+        </form>
+
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th class="col-md-1">#</th>
+
+            <th class="col">Movie Name</th>
+
+            <th class="col">Quantity</th>
+
+            <th class="col">Ticket Price</th>
+
+            <th class="col"> </th>
+        </tr>
+        
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            foreach (var item in Model.TicketsInShoppingCart)
+            {
+                <tr>
+                    <td>
+                        @(i++)
+                    </td>
+                    <td>
+                        @item.Ticket.MovieName
+                    </td>
+                    <td>
+                        @item.Quantity
+                    </td>
+                    <td>
+                        @item.Ticket.TicketPrice denars
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="/ShoppingCard/DeleteFromShoppingCart/@item.Ticket.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total: </th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>@Model.TotalPrice denars</th>
+        </tr>
+    </tfoot>
+
+</table>
+            }

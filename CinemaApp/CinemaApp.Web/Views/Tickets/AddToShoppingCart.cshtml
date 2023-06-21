@@ -1,0 +1,25 @@
+﻿@model CinemaApp.Domain.DTO.AddToShoppingCartDTO
+
+<h1>Add selected ticket to shopping card: </h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddToShoppingCart">
+            <input type="hidden" asp-for="TicketId" />
+            <div class="form-group">
+                <input disabled class="form-control" asp-for="SelectedTicket.MovieName" />
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" asp-for="Quantity" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+
+        </form>
+
+    </div>
+
+
+</div>
