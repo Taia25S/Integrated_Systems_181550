@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CinemaTicketingSystemAdmin_181550.props" />
+</Project>

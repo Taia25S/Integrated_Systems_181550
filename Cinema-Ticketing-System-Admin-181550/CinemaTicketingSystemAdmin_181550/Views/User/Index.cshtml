@@ -1,0 +1,26 @@
+﻿@model CinemaTisketingSystemAdmin_191010.Models.Ticket
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form asp-controller="User" asp-action="ImportUsers" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <input type="file" name="file" class="form-control" />
+
+    </div>
+    <button type="submit" class="btn btn-outline-success">Import Users From Excel</button>
+</form>
+
+
+<h3>Export all tickets</h3>
+<a class="btn btn-success" asp-controller="Admin" asp-action="ExportAllTickets">Export Tickets To Excel</a>
+
+<h3>Export tickets from specific genre</h3>
+<form asp-action="ExportTicketsFromGenre" method="post">
+    <select asp-for="MovieGenre" asp-items="Html.GetEnumSelectList<CinemaTisketingSystemAdmin_191010.Models.Ticket.Genre>()">
+    </select>
+    <span asp-validation-for="MovieGenre" class="text-danger"></span>
+    <button type="submit" class="btn btn-success">Export Tickets</button>
+</form>

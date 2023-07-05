@@ -1,0 +1,26 @@
+﻿@model CinemaTisketingSystemAdmin_191010.Models.Order
+
+<div class="container">
+
+    @for (int i = 0; i < Model.TicketsInOrder.ToList().Count; i++)
+    {
+        var item = Model.TicketsInOrder[i].Ticket;
+        if (i % 3 == 0)
+        {
+            @:<div class="row">
+            }
+                <div class="card" style="width: 18rem; height: 50rem;">
+                    <img class="card-img-top" src="@item.MovieImage" style="height: 50%" alt="Image for movie!">
+
+                    <div class="card-body">
+                        <h3 class="card-title">@item.MovieName</h3>
+                        <p class="card-text">@item.MovieDescription</p>
+                    </div>
+                </div>
+
+            if (i % 3 == 2)
+            {
+            @:</div>
+        }
+    }
+    </div>

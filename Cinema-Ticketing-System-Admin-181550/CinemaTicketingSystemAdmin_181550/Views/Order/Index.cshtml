@@ -1,0 +1,50 @@
+﻿@model List<CinemaTisketingSystemAdmin_191010.Models.Order>
+
+<h1>Orders</h1>
+<div class="container">
+    <div class="row">
+        <a class="btn btn-ouline-success" asp-controller="Order" asp-action="ExportAllOrders">Export Orders</a>
+
+
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="col-md-1">#</th>
+
+                <th class="col">Customer Details</th>
+
+                <th class="col">Number of tickets</th>
+
+                <th class="col"> </th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @{
+                var i = 1;
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @(i++)
+                        </td>
+                        <td>
+                            @item.OrderedBy.Username
+                        </td>
+                        <td>
+                            @item.TicketsInOrder.Count
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" href="/Order/GetOrderDetails/@item.Id">Details</a>
+                            <a class="btn btn-info" href="/Order/SavePdf/@item.Id">Create Invoice</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+
+    </table>
+</div>
+
+
