@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CinemaTisketingSystemAdmin_191010.Data
+namespace CinemaTicketingSystemAdmin_181550.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

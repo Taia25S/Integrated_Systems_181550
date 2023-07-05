@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CinemaTisketingSystemAdmin_191010.Models
+namespace CinemaTicketingSystemAdmin_181550.Models
 {
     public class Ticket
     {

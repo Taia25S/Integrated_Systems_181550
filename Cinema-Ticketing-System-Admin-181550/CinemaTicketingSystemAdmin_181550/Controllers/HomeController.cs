@@ -1,4 +1,4 @@
-﻿using CinemaTisketingSystemAdmin_191010.Models;
+﻿using CinemaTicketingSystemAdmin_181550.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CinemaTisketingSystemAdmin_191010.Controllers
+namespace CinemaTicketingSystemAdmin_181550.Controllers
 {
     public class HomeController : Controller
     {

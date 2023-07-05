@@ -1,4 +1,4 @@
-﻿using CinemaTisketingSystemAdmin_191010.Models;
+﻿using CinemaTicketingSystemAdmin_181550.Models;
 using ExcelDataReader;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +11,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CinemaTisketingSystemAdmin_191010.Controllers
+namespace CinemaTicketingSystemAdmin_181550.Controllers
 {
     public class UserController : Controller
     {

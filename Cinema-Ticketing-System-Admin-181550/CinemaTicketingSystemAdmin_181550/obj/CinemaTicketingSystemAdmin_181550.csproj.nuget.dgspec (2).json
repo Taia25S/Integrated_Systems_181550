@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010.csproj": {}
+    "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010.csproj": {
+    "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010.csproj",
-        "projectName": "CinemaTisketingSystemAdmin_191010",
-        "projectPath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010.csproj",
+        "projectUniqueName": "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550.csproj",
+        "projectName": "CinemaTicketingSystemAdmin_181550",
+        "projectPath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550.csproj",
         "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTisketingSystemAdmin_191010\\CinemaTisketingSystemAdmin_191010\\obj\\",
+        "outputPath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,4 +1,4 @@
-using CinemaTisketingSystemAdmin_191010.Data;
+using CinemaTicketingSystemAdmin_181550.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CinemaTisketingSystemAdmin_191010
+namespace CinemaTicketingSystemAdmin_181550
 {
     public class Startup
     {

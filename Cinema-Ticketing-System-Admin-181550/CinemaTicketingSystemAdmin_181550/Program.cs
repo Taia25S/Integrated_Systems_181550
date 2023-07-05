@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CinemaTisketingSystemAdmin_191010
+namespace CinemaTicketingSystemAdmin_181550
 {
     public class Program
     {
