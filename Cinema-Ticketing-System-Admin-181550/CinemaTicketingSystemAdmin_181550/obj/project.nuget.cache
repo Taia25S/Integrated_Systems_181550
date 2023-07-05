@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UwK4gKOKe6goUJ2rYdUrHm8HcQI/E+z2QHfgSyrIKMByIXSyqUbFkNzU8U5SAHY3lln9/JeQqX3sdo6nxPoO0Q==",
+  "dgSpecHash": "nR9ijvuxmSioSNNnTXkc2uikfAmExL1bU63dOc6J8rvSBHTd5NPYzMVffjLkCCTjZZMVWJ75gnOfJdnDe0pQlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stefa\\OneDrive\\Desktop\\Domashna\\Cinema-Ticketing-System-Admin-181550\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550.csproj",
+  "projectFilePath": "C:\\Integrated_Systems_181550\\Cinema-Ticketing-System-Admin-181550\\CinemaTicketingSystemAdmin_181550\\CinemaTicketingSystemAdmin_181550.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stefa\\.nuget\\packages\\closedxml\\0.96.0\\closedxml.0.96.0.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",
